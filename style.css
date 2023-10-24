@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    margin: 34px 0;
+    font-size: 2.5em;
+}
+.btn-primary{
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: bold;
+}
+.btn{
+    text-align: center;
+    padding: 0.67em;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+header{
+    width: 100%;
+    height: 72vh;
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url('./Images/Header\ Background.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 34px;
+}
+nav{
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid rgba(225, 225, 225, .3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-links{
+    width: 44%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-links li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem;
+}
+.header-section{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    color: #fff;
+}
+.header-section h1{
+    font-size: 8rem;
+    text-align: center;
+    font-weight: lighter;
+}
+.header-btn{
+    width: 100%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(225, 225, 225, .1);
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding: .6em 2.6em;
+    border-radius: 0;
+}
+.header-section .play-btn{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 50%;
+    font-size: 4em;
+    text-align: center;
+    color: #2D9CDB;
+}
+.section-header{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #333;
+}
+.tour-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.tour-item{
+    display: inline-block;
+    padding-right: 0.5em;
+}
+.tour-date{
+    color: #555;
+    width: 11%;
+    font-weight: bold;
+}
+.tour-city{
+    width: 24%;
+}
+.tour-arena{
+    width: 42%;
+}
+.tour-btn{
+    max-width: 19%;
+}
+footer{
+    padding: 0.25em 0;
+    background-color: #56CCF2;
+    color: white;
+}
+.footer-container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    display: flex;
+    align-items: center;
+}
+.footer-container h3{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-weight: normal;
+}
+.social-links{
+    flex-grow: 1;
+    text-align: end;
+}
+.social-links a{
+    padding: 0.5em;
+}
+.social-links a img{
+    width: 30px;
+    height: 30px;
+}
+/* About */
+.about-band-img{
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 15px;
+    overflow: hidden;
+}
+p{
+    margin: 1em;
+}
+/* Store */
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.shop-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+.shop-item-title{
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.shop-item-image{
+    height: 250px;
+}
+.shop-item-details{
+    width: 100%;
+    display: flex;
+    gap: 36%;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    padding: 4px;
+}
+.shop-item-price{
+    color: #333;
+}
+.shop-btn{
+    justify-content: end;
+}
+.cart-row{
+    display: flex;
+}
+.cart-item{
+    width: 45%;
+}
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cart-header{
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+.cart-price{
+    width: 20%;
+}
+.cart-quantity{
+    width: 35%;
+}
+.cart-total{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.cart-total-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #000;
+    margin-right: 20px;
+}
+.cart-total-price{
+    color: #333;
+    font-size: 1.1em;
+}
+.btn-purchase{
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    header{
+        width: 100%;
+        height: 98vh;
+    }
+    .nav-links{
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .container{
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 1.5em;
+    }
+}
